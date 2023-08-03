@@ -1,0 +1,38 @@
+/* desktop */
+
+@media (max-width: 84em) {
+  .nav-links-list {
+    margin: 6rem;
+    gap: 1rem;
+  }
+  .nav-links {
+    font-size: 1.4rem;
+  }
+
+  .icons-container {
+    top: 2rem;
+    right: 4.5rem;
+  }
+
+  .card {
+    max-height: 350px;
+  }
+
+  .card-container {
+    gap: 5rem;
+  }
+
+  .card > h1 {
+    font-size: 1.5rem;
+  }
+
+  .card > p {
+    font-size: 0.8rem;
+  }
+
+  .main-container > button {
+    font-size: 2rem;
+    width: 150px;
+    height: 80px;
+  }
+}
