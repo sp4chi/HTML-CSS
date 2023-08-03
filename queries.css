@@ -1,21 +1,23 @@
-/* desktop */
+/* desktop - below 1366px */
 
-@media (max-width: 84em) {
-  .nav-links-list {
-    margin: 6rem;
-    gap: 1rem;
-  }
-  .nav-links {
-    font-size: 1.4rem;
+@media (max-width: 85.375em) {
+  html {
+    font-size: 90%;
   }
 
   .icons-container {
-    top: 2rem;
-    right: 4.5rem;
+    top: 2.3rem;
+    right: 2.8rem;
+  }
+
+  .icon-size {
+    font-size: 1.2rem;
+    line-height: 0.04167em;
+    vertical-align: -0.125em;
   }
 
   .card {
-    max-height: 350px;
+    height: 27rem;
   }
 
   .card-container {
@@ -27,12 +29,24 @@
   }
 
   .card > p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
-  .main-container > button {
+  /* .main-container > button {
     font-size: 2rem;
-    width: 150px;
-    height: 80px;
+  } */
+}
+
+/* landscape tablets - below 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* tablets - below 944px */
+@media (max-width: 59em) {
+  html {
+    font-size: 60%;
   }
 }
