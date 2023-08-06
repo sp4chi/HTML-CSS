@@ -6,16 +6,22 @@
     <script
       src="https://kit.fontawesome.com/5d07db42e7.js"
       crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="queries.css" />
     <title>Order Food</title>
   </head>
   <body>
-    <header>
+    <header class="nav-open">
       <nav>
-        <ul class="nav-link-list container">
-          <li><a class="nav-links" href="#">Home</a></li>
+        <ul class="nav-link-list">
+          <li>
+            <a class="nav-links" href="#">Home</a>
+          </li>
           <li><a class="nav-links" href="#">Order</a></li>
           <li><a class="nav-links" href="#">Food</a></li>
           <li><a class="nav-links" href="#">Restaurant</a></li>
@@ -23,66 +29,73 @@
           <li><a class="nav-links" href="#">Contact Us</a></li>
         </ul>
         <div class="icons-container">
-          <a href="#">
-            <i
-              class="fa-solid fa-phone icon-size icon"
-              style="color: #04182a"></i>
+          <a href="#"
+            ><i class="fa-solid fa-phone icon-size" style="color: #04182a"></i>
           </a>
-          <a href="#">
-            <i
-              class="fa-solid fa-cart-shopping icon-size icon"
-              style="color: #04182a"></i>
-          </a>
+
+          <a href="#"
+            ><i
+              class="fa-solid fa-cart-shopping icon-size"
+              style="color: #04182a"></i
+          ></a>
         </div>
       </nav>
-
-      <section>
-        <div class="hero-container-box">
-          <div class="hero-img" src="img1.jpg" alt="hero img">
-            <div class="container shadow">
-              <div class="header-container-inner">
-                <h1>Lorem Ipsum</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-                  praesentium rerum amet! Nemo necessitatibus, quasi, doloribus
-                  dolores quas vero sapiente magnam ab consequuntur, soluta
-                  neque repellendus beatae rerum reiciendis quaerat.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <main>
-        <div class="main-container container">
-          <h1>Order Now</h1>
-          <div class="card-container">
-            <div class="card shadow">
-              <img class="card-img" src="img4.jpg" alt="burger" />
-              <h1>Burger</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              </p>
-            </div>
-            <div class="card shadow">
-              <img class="card-img" src="img2.jpg" alt="pizza" />
-              <h1>Pizza</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              </p>
-            </div>
-            <div class="card shadow">
-              <img class="card-img" src="img3.jpg" alt="pasta" />
-              <h1>Pasta</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              </p>
-            </div>
-          </div>
-          <button class="shadow">Order</button>
-        </div>
-      </main>
+      <button class="btn-mobile-nav">
+        <i
+          class="fa-solid fa-bars icon-size icon-mobile-nav"
+          name="menu-outline"></i>
+        <i
+          class="fa-solid fa-x icon-size icon-mobile-nav"
+          name="close-outline"></i>
+      </button>
     </header>
+
+    <section>
+      <div class="hero-container-box">
+        <div class="hero-img" src="img1.jpg" alt="hero img">
+          <div class="container shadow">
+            <div class="header-container-inner">
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                praesentium rerum amet! Nemo necessitatibus, quasi, doloribus
+                dolores quas vero sapiente magnam ab consequuntur, soluta neque
+                repellendus beatae rerum reiciendis quaerat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="main-container container">
+        <h1>Order Now</h1>
+        <div class="card-container">
+          <div class="card shadow">
+            <img class="card-img" src="img4.jpg" alt="burger" />
+            <h1>Burger</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            </p>
+          </div>
+          <div class="card shadow">
+            <img class="card-img" src="img2.jpg" alt="pizza" />
+            <h1>Pizza</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            </p>
+          </div>
+          <div class="card shadow">
+            <img class="card-img" src="img3.jpg" alt="pasta" />
+            <h1>Pasta</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            </p>
+          </div>
+        </div>
+        <button class="shadow">Order</button>
+      </div>
+    </main>
   </body>
 </html>
